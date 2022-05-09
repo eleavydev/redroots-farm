@@ -1,4 +1,9 @@
 body {
+    font-family: arial;
+    text-align: left;
+}
+
+/* body {
     text-align: center;
     min-height: 100vh;
     display: flex;
@@ -13,4 +18,4 @@ main {
 header, footer {
     background-color: red;
     color: white;
-  }
+  } */
