@@ -95,11 +95,13 @@ h1, h2 {
     /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/a_-90/v1652176383/red-roots-farm/flowers_zauxbw.jpg) no-repeat center center; */
     /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652176383/red-roots-farm/red-roots-farm_p1vfcl.jpg) no-repeat center center; */
     /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1652176383/red-roots-farm/red-roots-farm_p1vfcl.jpg) no-repeat center center; */
-    /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652294694/red-roots-farm/landscape2_sgdgdk.jpg) no-repeat center center;  */
     /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652296294/red-roots-farm/Slide4_adq3sn.jpg) no-repeat center center;  */
     background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652296430/red-roots-farm/tree-roots_diidkj.jpg) no-repeat center center; 
+    background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652294694/red-roots-farm/landscape2_sgdgdk.jpg) no-repeat center center; 
+    /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652296963/red-roots-farm/anotherredroots_b8ztzl.jpg) no-repeat center center;  */
+    /* background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1652296963/red-roots-farm/anotherredroots_b8ztzl.jpg) no-repeat center center;
+    background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1652297350/red-roots-farm/Slide2_nvzdyn.jpg) no-repeat center center; */
     
-
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -118,7 +120,7 @@ h1, h2 {
 }
 
 #cover-text{
-    font-size: 130%;
+    /* font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -129,12 +131,13 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    /* background-color: rgba(241, 109, 107, .7); */
+    /* background-color: rgb(204, 255, 51);
 
     bottom: 30px;
     right: 150px;
 
-    position: absolute;
+    position: absolute; */ 
 
 }
 /* Club ethos */
