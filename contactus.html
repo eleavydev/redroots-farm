@@ -33,31 +33,29 @@
     </header>
     
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Get in touch! <i class="fas fa-heartbeat"></i> </h2>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
-            <br>
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
-            <br>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
-            <br>
-            #Reminder to include a Freetext box        
-            <input class="join-button" type="submit" value="Contact Us!">
-        </form>
-    </section>
-    <!-- <section>
         <div>
-        <h3>Address</h3>
-        <p>Red Roots Farm,<br>Riverstown <br>Killucan</p>       
-            <iframe src="https://bit.ly/2QVfkiy" width="100%" height="300"></iframe>
-        </div> 
-    </section> -->
-    
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+                <h2>Get in touch! </h2>
+                <div>
+                    <label for="name-field" class="form-label">Name</label>
+                    <input type="text" id="name-field" name="full_name" placeholder="Enter your Name here" class="text-input" required>
+                </div>
+                <div>
+                    <label for="email-field" class="form-label">Email Address</label>
+                    <input type="email" id="email-field" name="email_address" placeholder="Enter your Email Address here" class="text-input" required>
+                </div>
+               <div>
+                    <label for="user-message" class="form-label">Your message</label>
+                    <textarea id="user-message" name="message" placeholder="Enter your message or question here" cols="80" rows="10" class="blah" id="message" required></textarea>
+                </div>
+                <div>
+                    <button class="submit-button" type="submit" id="submit">Contact Us!</button>               
+                </div>
+            </form>
+        </div>
+    </section>    
     <footer>
-        <ul class="social-networks">
+        <ul class="social-network-links">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" 
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
