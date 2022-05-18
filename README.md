@@ -1,19 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Red Roots Farm
 
-Welcome eleavydev,
+Red Roots is a site that welcomes users to the SUSTAINABILITY & WELLNESS CENTRE that is known as "Red Roots Farm" based in the midlands in the heart of Ireland. The site will be targeted toward people who are looking for a place of rest and relaxation to visit where they can recharge their batteries. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+RECONNECT – REALIGN – REDISCOVER is displayed as the Tagline for Red Roots farm which aims to draw people in and invite them to discover more. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Users of this website will be able to find out information about Red Roots farm such as the vision, the owners Claire and Tom, holistic experiences on offer, , gallery of pictures, social media, contact information and a contact form. This site is targeted towards people that are interested in getting back to basics, learning and sharing new skills and meeting like minded individuals.
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-
-# Love Running
 
 In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
@@ -24,6 +16,12 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+•	Navigation 
+•	The Header
+•	The About Us Section
+•	The Sign up Form
+•	The Contact Section 
 
 ### Existing Features
 
