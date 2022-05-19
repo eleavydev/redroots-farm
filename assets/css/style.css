@@ -359,6 +359,25 @@ footer {
          #photos {
             column-count: 1;
         }
+
+        .form-section {
+            height: 400px;
+        }
+        
+        .contact-form {
+           max-width: 300px;
+        }
+        
+        .contact-form > h2 {
+            color: #fafafa;
+            margin-bottom: 20px;
+        }
+
+        .textarea-input{
+            color: red;
+            columns: 100%;
+        }
+
     }
 
 
@@ -392,11 +411,14 @@ footer {
          height: auto;
          width: auto;
      }
+ 
+
     
     @media (min-width: 40rem) {
         .about-points {
             flex-direction: row; 
         }
+        
     }
 
     .col-left {
