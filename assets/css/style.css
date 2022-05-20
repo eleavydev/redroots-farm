@@ -80,15 +80,6 @@ p {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
-
-#cover-text, #cover-text h2 {
-    text-align: center
-}
-
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -306,20 +297,7 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
+    #experiences > div {
         width: 100%;
         clear: both;
         height: 150px;
