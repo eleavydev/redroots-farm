@@ -1,6 +1,6 @@
 # Red Roots Farm
 
-Red Roots is a site that welcomes users to the SUSTAINABILITY & WELLNESS CENTRE that is known as "Red Roots Farm" based in the midlands in the heart of Ireland. The site will be targeted toward people who are looking for a place of rest and relaxation to visit where they can recharge their batteries. 
+Red Roots is a site that welcomes users to the SUSTAINABILITY & WELLNESS CENTRE "Red Roots Farm" based in the heart of Ireland in Co. Westmeath. The site will be targeted toward people who are looking for a place of rest and relaxation where they can go to slow down and recharge their batteries. 
 
 RECONNECT – REALIGN – REDISCOVER is displayed as the Tagline for Red Roots farm which aims to draw people in and invite them to discover more. 
 
@@ -90,6 +90,8 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Bug - Logo on the Contact Us page doesn't bring back to index.html
 
 
 ### Validator Testing 
