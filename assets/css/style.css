@@ -217,7 +217,7 @@ footer {
 
 /* Set up contact-form element with curved edges, grey opague background, small bit of padding and max-width of 600px */ 
 .contact-form {
-    margin: 70px 30% 0 0; 
+    margin: 60px 30% 0 0; 
     color: #FFFAFA;
     background-color: rgba(60, 60, 60, 0.6); 
     max-width: 600px;
@@ -336,6 +336,31 @@ footer {
 
     /*For small screen sizes 800px and down*/
     @media screen and (max-width: 800px) {
+
+
+        #hero-image {
+            /* height: 600px;
+            width: 100%; */
+            background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653322700/redrootsfarm/landscapecropped4_ihryeh.png") no-repeat center center; 
+        
+            /* animates zoom effect on loading page*/
+            animation-name: hero-zoom;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+        }
+
+        /* #hero-outer {
+            /* height: 600px;
+            width: 100%; 
+            overflow: hidden;
+            position: relative; */
+            /* background-size: cover  */
+            /* background-size: contain;
+            /* background-size: cover; */
+            /*object-fit: none;
+            /*object-position: 50% 50%; /* default value: image is centered*/
+            /*object-position: 0 0; /* positioned top left of the content box */
+      
         /* Only show 1 images together for smallest screen size */ 
          #photos {
             column-count: 1;
