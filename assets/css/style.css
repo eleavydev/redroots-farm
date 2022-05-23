@@ -256,16 +256,6 @@ footer {
     font-family: 'Lato', sans-serif; 
 } 
 
-/* textarea {
-    text-size-adjust: none;
- } */
-
-
-/* textarea {
-    font-family: inherit;
-    font-size: inherit;
- } */
-
 .submit-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -333,26 +323,21 @@ footer {
     }
 
     /*For small screen sizes 800px and down*/
-    /* Only show 1 images together for smallest screen size */ 
     @media screen and (max-width: 800px) {
+        /* Only show 1 images together for smallest screen size */ 
          #photos {
             column-count: 1;
         }
 
-        .form-section {
-            height: 400px;
+            .form-section {
+            height: 800px;
         }
         
         .contact-form {
            max-width: 300px;
         }
         
-        .contact-form > h2 {
-            color: #fafafa;
-            margin-bottom: 20px;
-        }
-
-        .textarea-input{
+          .textarea-input{
             max-width: 100%;
         }
 
