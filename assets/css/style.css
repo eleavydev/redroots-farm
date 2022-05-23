@@ -189,6 +189,9 @@ footer {
     color: #3a3a3a;
 }
 
+/******************************************Styling Gallery.html  ********************************************************************************/
+
+
 /* Gallery */
 #photos {
     clear: both;
@@ -201,7 +204,7 @@ footer {
     width: 100%;
 }
 
-/******************************************Setting up Form Section ********************************************************************************/
+/******************************************Styling Contact Us.html (Form Section) ********************************************************************************/
 
 /* Set background picture and attributes for form section */
 .form-section {
@@ -280,6 +283,8 @@ footer {
     color: rgba(152, 179, 60, 0.6);
 }
 
+/******************************************End of Styling Contact Us.html (Form Section) ********************************************************************************/
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -337,11 +342,12 @@ footer {
         }
 
             .form-section {
-            height: 800px;
+            height: 650px;
         }
         
-        .contact-form {
-           max-width: 300px;
+           /* 2 or 300, change from 250 to 300px*/
+          .contact-form {
+           max-width: 250px;
         }
         
           .textarea-input{
