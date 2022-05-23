@@ -189,6 +189,7 @@ footer {
     color: #3a3a3a;
 }
 
+/* Gallery */
 #photos {
     clear: both;
     line-height: 0;
@@ -239,7 +240,7 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
-    font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif; 
 }
 
 .text-input,.textarea-input:hover {
@@ -252,7 +253,7 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
-    font-family: 'Lato', sans-serif;  */
+    font-family: 'Lato', sans-serif; 
 } 
 
 /* textarea {
@@ -352,8 +353,7 @@ footer {
         }
 
         .textarea-input{
-            color: red;
-            columns: 100%;
+            max-width: 100%;
         }
 
     }
