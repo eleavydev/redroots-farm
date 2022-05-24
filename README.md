@@ -1,77 +1,106 @@
 # Red Roots Farm
+![Screenshots of Red Roots Farm website](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653391863/redrootsfarm/Website_Screenshot24052022_p2wam3.png "Red Roots Farm")
 
-Red Roots is a site that welcomes users to the SUSTAINABILITY & WELLNESS CENTRE "Red Roots Farm" based in the heart of Ireland in Co. Westmeath. The site will be targeted toward people who are looking for a place of rest and relaxation where they can go to slow down and recharge their batteries. 
+#### Live website can be found at: https://eleavydev.github.io/redroots-farm/
 
-RECONNECT – REALIGN – REDISCOVER is displayed as the Tagline for Red Roots farm which aims to draw people in and invite them to discover more. 
+## Objective of website
+Red Roots is a site that welcomes users to the Sustainability & Wellness Center "Red Roots Farm" based in the heart of Ireland in Co. Westmeath. The site is targeted towards people who are looking for a place of rest and relaxation where they can go to slow down, get back to basics, recharge their batteries, learn new skills and realign themselves with nature. 
 
-Users of this website will be able to find out information about Red Roots farm such as the vision, the owners Claire and Tom, holistic experiences on offer, , gallery of pictures, social media, contact information and a contact form. This site is targeted towards people that are interested in getting back to basics, learning and sharing new skills and meeting like minded individuals.
+RECONNECT – REALIGN – REDISCOVER is displayed as the Tagline for Red Roots Farm which aims to draw people in and invites them to discover more. 
 
-
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+Users of this website will be able to find out information about Red Roots farm such as the vision, the owners Claire and Tom, holistic experiences on offer, spaces at Red Roots farm, gallery of inspiring pictures, social media information and a contact form for people to leave comments or ask questions. 
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-•	Navigation 
-•	The Header
-•	The About Us Section
-•	The Sign up Form
-•	The Contact Section 
-
 ### Existing Features
 
+The first iteration of Red Roots Farm site is a simple three page website with features which are described below:   
+
 - __Navigation Bar__
+- __The Header (Including landing page image and Tagline)__
+- __About Us Section__
+- __Holistic Experiences Section__
+- __Our Spaces Section__
+- __Local Attractions Section__
+- __Experiences Section__
+- __The Gallery Page__
+- __The Contact Us Form__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+## Navigation Bar 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388731/redrootsfarm/redroots_navbar_r3elqf.png)
 
-- __The landing page image__
+  - The responsive navigation bar includes links to the Logo (points to Home page), Home page, Gallery page and Contact Us page. The Navigation bar is identical in each page to allow user navigate from one page to another with ease and without the need for trying to get back to the previous page via the ‘back’ button. 
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+## The Header (including landing page image and Tagline)
 
-- __Club Ethos Section__
+![Landing Page](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388732/redrootsfarm/redroots_heroimage_withTagline_lv3ovl.png)
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The landing page includes a photograph of Red Roots Farm with vibrant trees, flowers and green grass aiming to give the user an instant 'feel' for the Red Roots space. 
+  - This section aims to invite the user in to Red Roots Farm with an animation to grab their attention and almost pull them inwards to explore more. 
+  - The h1 tagline of "Reconnect - Realign - Rediscover" is immediately below the photograph in block capitals. This captures the essence of Red Roots Farm and what Claire and Tom would like to help people do when they visit. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+## About Us Section
 
-- __Meetup Times section__
+![About Us](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388731/redrootsfarm/redroots_aboutus_q4amon.png)
+
+  - The About Us section sets the scene of what Red Roots Farm is, where it is located and introduces the owners. 
+  - It describes the Red Roots Farm concept with simple yet emotive language such as safe, peaceful, relax, realign and rediscover. This is in line with the Landing page photo and the tagline and aims to interest the user and invite them to learn more. 
+  - The guiding values of slowing down, minding ourselves, each other and the land are mentioned. 
+  - It also explains where the name "Red Roots farm" came from and relates it to visualising our base chakra with big strong red roots stretching deep into the earth, grounding us. 
+  - Tom and Claire, the owners of Red Roots farm are briefly introduced and their skills and passion for sustainability, wellness and creativity are highlighted. 
+  - A photo of a smiling Tom and Claire is included which makes it more personal and encourages the user to feel like a friend. 
+  - This opening section aims to give the user a mini introduction into the meaning and purpose of Red Roots farm and it's owners Tom and Claire. 
+
+
+## Holistic Experiences section
+
+![Holistic Experiences](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388731/redrootsfarm/redroots_holisticexperiences_bxfskg.png)
+
+  - This section informs the users of the holistic experiences that are available at Red Roots farm. 
+  - It informs the users these experiences are for all ages and will help soothe and revive the body, mind and soul. 
+
+## Our Spaces section
+
+![Our Spaces](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
+  - This section describes in words and pictures the 3 different spaces that are at Red Roots farm. 
+  - These spaces are listed in an ordered list 1. Polytunnel, Studio 42, Red Roots Wellness cabin. 
+
+## Local Attractions section
+
+![Local Attractions](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+## Experiences section
 
-- __The Footer__ 
+![Experiences](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date. 
+
+## The Footer
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+## Gallery Page
+
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+## The Contact Us Form
 
-- __The Sign Up Page__
+![Contact Us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -79,7 +108,19 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+As mentioned previously, the first iteration of Red Roots Farm site is a simple three page website serving as initial introduction to Red Roots Farm. 
+It's envisaged that the site will be expanded gradually over time (in short sprints) to cater for more features which are described below. 
+
+- Blog posts from Tom and Claire
+
+- Links to podcast/audio links featuring short meditations for relaxation, gardening and sustainability hints and tips. 
+
+- Timetable of upcoming events and classes
+
+- Online booking form for events
+
+- Web shop for Red Roots merchandise. 
+
 
 ## Testing 
 
@@ -128,28 +169,19 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://eleavydev.github.io/redroots-farm/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was created by Red Roots farm and myself. 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- The photos used throughout this site have all been created by Red Roots farm. 
 
 ## Other General Project Advice
 
