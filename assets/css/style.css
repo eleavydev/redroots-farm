@@ -77,8 +77,7 @@ p {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652294694/red-roots-farm/landscape2_sgdgdk.jpg) no-repeat center center; 
-
+    background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653402365/redrootsfarm/landscape2_mfdvuj.jpg) no-repeat center center; 
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -104,7 +103,7 @@ hr {
 
 #tagline {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 280%; 
     border-style: solid; 
 }
@@ -130,7 +129,7 @@ hr {
 /* experiences*/
 
 #experiences {
-    background-image: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/a_-90/v1652176383/red-roots-farm/flowers_zauxbw.jpg");
+    background-image: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816149/redrootsfarm/flowers_aj1yuy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,7 +202,7 @@ footer {
 /* Set background picture and attributes for form section */
 .form-section {
     clear: left;
-    background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652176336/red-roots-farm/tom-claire_qfndig.jpg");
+    background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816150/redrootsfarm/tom-claire_pm76ui.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -335,7 +334,7 @@ footer {
         #hero-image {
             /* height: 600px;
             width: 100%; */
-            background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653322700/redrootsfarm/landscapecropped4_ihryeh.png") no-repeat center center; 
+            background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653402365/redrootsfarm/landscape2_mfdvuj.jpg) no-repeat center center; 
         
             /* animates zoom effect on loading page*/
             animation-name: hero-zoom;
