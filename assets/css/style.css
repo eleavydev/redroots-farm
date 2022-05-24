@@ -18,7 +18,7 @@ body {
 /* Style Headings and Logo */
 /* Set default font to Lato but also provide sans-serif as backup font*/
 h1, h2 {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #252525;
@@ -30,12 +30,12 @@ h1, h2 {
    margin-left: 30px;
 }
 
-p {
-    font-family: 'Merriweather Sans', sans-serif; 
-}
+/* p {
+    /* font-family: 'Merriweather Sans', sans-serif;  */
+/* } */ 
 
 #menu{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 110%;
     letter-spacing: 3px;
 }
@@ -104,16 +104,16 @@ hr {
 #tagline {
     text-align: center;
     margin: 10px 0;
-    font-size: 280%; 
+    font-size: 250%; 
     border-style: solid; 
 }
 
 #circle-container {
     width: 300px;
     height: 300px;
-    /* padding: 10px; */
-    /* border-style: solid;  */
-    border-color: #ccc;
+    padding: 10px; 
+    /* border-style: solid;  
+    border-color: #ccc; */
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -125,6 +125,59 @@ hr {
     border-radius: 80%;
     margin-top: 30px;
 }
+
+.about-points {
+    /* padding: 2vh 2px; */
+    /* padding: 2vh 200px 200px 0px;  */
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-style: solid;  
+ }
+
+ .col-right img{
+     height: auto;
+     width: auto;
+ }
+
+ .col-left {
+    flex-basis: 20%;
+    border-style: double; 
+}
+
+.col-right {
+    flex-basis: 75%;
+    align-items: center;
+    border-style: double; 
+    padding: 10px 
+}
+
+.about-points {
+    flex-basis: 30%;
+}
+
+
+.col-right p{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: left;
+    font-size: 130%;
+    line-height: 1.4;
+    display: block;   
+}
+
+.col-right ul,ol{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: left;
+    font-size: 130%;
+    line-height: 1.4;
+    display: block;   
+}
+
 
 /* experiences*/
 
@@ -147,14 +200,6 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-
-        /* /background: red;   
-        width: 30%; 
-        flex-basis: 100%;
-        align-items: center;
-        border-style: double; 
-        flex-direction: column;  */
-
 }
 
 #experiences h2 {
@@ -213,7 +258,7 @@ footer {
     margin: 60px 30% 0 0; 
     color: #FFFAFA;
     background-color: rgba(60, 60, 60, 0.6); 
-    max-width: 600px;
+    max-width: 500px;
     position: absolute;
     left: 2%;   
     padding: 40px;
@@ -240,7 +285,6 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
-    /* font-family: 'Lato', sans-serif;  */
 }
 
 /* Set up text-area (Commment Box) input field */
@@ -249,7 +293,7 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
-    font-family: 'Lato', sans-serif; 
+    max-width: 100%;
 } 
 
 /* Set up pseduo class for text input fields to change background colour (green) on hover */
@@ -278,19 +322,14 @@ footer {
 
 /******************************************End of Styling Contact Us.html (Form Section) ********************************************************************************/
 
-/* Media queries */
+/********************************************************************** Media queries (enabling responsive design for larger, medium and small screen sizes)********************************************************************************/
 
-/* For larger to medium screens size from 1200px wide and down */
+/******************************************  For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
     }
 
     #experiences > div {
@@ -300,18 +339,16 @@ footer {
         padding: 0;
     }
 
-    hr {
+    /* hr {
        display: none; 
-    }
+    } */
 
 }
 
-/* For medium screens size from 950px wide and down */
+/****************************************** For medium screens size from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    /* For medium screens size from 950px wide and down */
-
-    /* Push Nav items below and left of logo */
+       /* Home page - Push Nav items below and left of logo */
         #menu {
             clear: left;
             float: left;
@@ -320,182 +357,45 @@ footer {
             line-height: 25px;
         }
 
-    /* Only show 3 images together for smaller screen size */
+    /* Gallery - Only show 3 images together in column for smaller screen size */
         #photos {
             column-count: 3;
         }
 
-    }
+    }    
 
-    /*For small screen sizes 800px and down*/
+    /****************************************** For small screen sizes 800px and down*/
     @media screen and (max-width: 800px) {
 
-
+        /* Home page - Reset background to cropped version of Hero image */
         #hero-image {
-            /* height: 600px;
-            width: 100%; */
-            background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653402365/redrootsfarm/landscape2_mfdvuj.jpg) no-repeat center center; 
-        
-            /* animates zoom effect on loading page*/
-            animation-name: hero-zoom;
-            animation-duration: 5s;
-            animation-fill-mode: forwards;
+           background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653322700/redrootsfarm/landscapecropped4_ihryeh.png) no-repeat center center; 
         }
 
-        /* #hero-outer {
-            /* height: 600px;
-            width: 100%; 
-            overflow: hidden;
-            position: relative; */
-            /* background-size: cover  */
-            /* background-size: contain;
-            /* background-size: cover; */
-            /*object-fit: none;
-            /*object-position: 50% 50%; /* default value: image is centered*/
-            /*object-position: 0 0; /* positioned top left of the content box */
-      
-        /* Only show 1 images together for smallest screen size */ 
+        /* Home page - Change flex direction from row to column */
+        .about-points {
+            flex-direction: column; 
+        }
+
+     
+        /* Gallery - Only show single image in column for smallest screen size */ 
          #photos {
             column-count: 1;
         }
 
+        /* Contact Us - shrink size of the Form section, contact form and comment box */
             .form-section {
             height: 650px;
         }
         
-           /* 2 or 300, change from 250 to 300px*/
-          .contact-form {
+           .contact-form {
            max-width: 250px;
         }
-        
+             
           .textarea-input{
             max-width: 100%;
         }
 
     }
 
-
-    .hero {
-        padding: 1em;
-        /* /* background-color: #444;
-        /* background-image: url("../images/berries.jpg");
-        background-blend-mode: multiply;
-        background-size: cover; */
-        /* height: 100vh;
-        padding: 1em;
-        color: white; */
-    
-        /* display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */ 
-    }
-    
-    .about-points {
-        padding: 2vh 0;
-        /* padding: 2vh 200px 200px 0px; */
-        text-align: left;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        /* /border-style: solid;  */
-     }
-
-     .col-right img{
-         height: auto;
-         width: auto;
-     }
- 
-
-    
-    @media (min-width: 40rem) {
-        .about-points {
-            flex-direction: row; 
-        }
-        
-    }
-
-    .col-left {
-        /* background: red;   */
-        /* width: 30%; */
-        flex-basis: 20%;
-        /* border-style: double; */
-        /* margin-top: 40px; */
-    }
-
-    .col-right {
-        /* background: red;   */
-        /* width: 30%; */
-        flex-basis: 75%;
-        align-items: center;
-        /* border-style: double; */
-    }
-    
-    
-    .about-points {
-        /* background: red;  */
-        /* width: 30%; */
-        flex-basis: 30%;
-    }
-
-
-    .col-right p{
-        font-family: 'Oswald', sans-serif;
-        font-family: 'Courier New', Courier, monospace; 
-        font-family: 'Amaranth', sans-serif;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Courier New', Courier, monospace; 
-        font-family: 'Oswald', sans-serif; 
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px 15px 32px;
-        text-align: left;
-        font-size: 130%;
-        line-height: 1.4;
-        /* word-spacing: 10px; */
-        /* background-color: pink; */
-        /* background-color: rgba(152, 179, 60, 0.6); */
-        /* color: #fafafa; */
-        display: block;   
-        /* position: absolute;        */
-    }
-
-    .col-right ul,ol{
-        font-family: 'Oswald', sans-serif;
-        font-family: 'Courier New', Courier, monospace; 
-        font-family: 'Amaranth', sans-serif;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Courier New', Courier, monospace; 
-        font-family: 'Oswald', sans-serif; 
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px 15px 32px;
-        text-align: left;
-        font-size: 130%;
-        line-height: 1.4;
-        /* word-spacing: 10px; */
-        /* background-color: pink; */
-        /* background-color: rgba(152, 179, 60, 0.6); */
-        /* color: #fafafa; */
-        display: block;   
-        /* position: absolute;        */
-    }
-   
-    .cta {
-        background-image: url("../images/ceremony.jpg");
-        background-size: cover;
-        padding: 10vh 0;
-        color: white;
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .cta-text {
-        flex-basis: 100%;
-        padding: 0 2em;
-        @media (min-width: 40rem) {
-            flex-basis: 50%
-        }
-    }
+    /******************************************End of Media Queries ********************************************************************************/
