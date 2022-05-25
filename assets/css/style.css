@@ -277,6 +277,7 @@ footer {
     letter-spacing: 2px;
 }
 
+
 /* Set up text inputs (Name, Email Address) fields */
 .text-input {    
     color: black;
@@ -285,14 +286,17 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 /* Set up text-area (Commment Box) input field */
-.textarea-input  {    
-    color: black;
+.textarea-input {  
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;  
     max-width: 100%;
 } 
 
