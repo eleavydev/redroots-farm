@@ -120,7 +120,7 @@ hr {
     text-align: center;
     margin: 10px 0;
     font-size: 250%; 
-    /* border-style: solid;  */
+    border-style: solid;  
 }
 
 #circle-container {
