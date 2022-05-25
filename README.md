@@ -1,19 +1,20 @@
 # Red Roots Farm
+
+Red Roots Farm is a website which welcomes users to the Sustainability & Wellness Center "Red Roots Farm" based in the heart of Ireland in Co. Westmeath. The site is targeted towards people who are looking for a place of rest and relaxation where they can go to slow down, get back to basics, recharge their batteries, learn new skills and realign themselves with nature. 
+
+RECONNECT – REALIGN – REDISCOVER is displayed as the Tagline for Red Roots Farm which aims to draw people in and invites them to discover more. 
+
+Users of this website will be able to find out information about Red Roots farm such as the vision for the center, the owners Claire and Tom, holistic experiences on offer, spaces at Red Roots farm. They will be able to view a gallery of inspiring pictures, view social media information and use a contact form if they wish to leave comments or ask questions. 
+
 ![Screenshots of Red Roots Farm website](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653391863/redrootsfarm/Website_Screenshot24052022_p2wam3.png "Red Roots Farm")
 
 #### Live website can be found at: https://eleavydev.github.io/redroots-farm/
 
-## Objective of website
-Red Roots is a site that welcomes users to the Sustainability & Wellness Center "Red Roots Farm" based in the heart of Ireland in Co. Westmeath. The site is targeted towards people who are looking for a place of rest and relaxation where they can go to slow down, get back to basics, recharge their batteries, learn new skills and realign themselves with nature. 
-
-RECONNECT – REALIGN – REDISCOVER is displayed as the Tagline for Red Roots Farm which aims to draw people in and invites them to discover more. 
-
-Users of this website will be able to find out information about Red Roots farm such as the vision, the owners Claire and Tom, holistic experiences on offer, spaces at Red Roots farm, gallery of inspiring pictures, social media information and a contact form for people to leave comments or ask questions. 
 
 ## Features 
 ### Existing Features
 
-The first iteration of Red Roots Farm site is a simple three page website with features which are described below:   
+The first iteration of Red Roots Farm site is a simple three page website (1. Home, 2. Gallery and 3. Contact Us) with features which are described below:   
 
 - __Navigation Bar__
 - __The Header (Including landing page image and Tagline)__
@@ -29,16 +30,17 @@ The first iteration of Red Roots Farm site is a simple three page website with f
 
 ![Nav Bar](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388731/redrootsfarm/redroots_navbar_r3elqf.png)
 
-  - The responsive navigation bar includes links to the Logo (points to Home page), Home page, Gallery page and Contact Us page. The Navigation bar is identical in each page to allow user navigate from one page to another with ease and without the need for trying to get back to the previous page via the ‘back’ button. 
+  - The responsive navigation bar includes links to the Logo (points to Home page), Home page, Gallery page and Contact Us page. 
+  - The Navigation bar is identical in each page to allow user navigate from one page to another with ease and without the need for trying to get back to the previous page via the ‘back’ button. 
 
 
 ## The Header (including landing page image and Tagline)
 
 ![Landing Page](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388732/redrootsfarm/redroots_heroimage_withTagline_lv3ovl.png)
 
-  - The landing page includes a photograph of Red Roots Farm with vibrant trees, flowers and green grass aiming to give the user an instant 'feel' for the Red Roots space. 
+  - The landing page includes a photograph of Red Roots Farm with vibrant trees, flowers and green grass aiming to give the user an instant 'feel' for the Red Roots Farm space. 
   - This section aims to invite the user in to Red Roots Farm with an animation to grab their attention and almost pull them inwards to explore more. 
-  - The h1 tagline of "Reconnect - Realign - Rediscover" is immediately below the photograph in block capitals. This captures the essence of Red Roots Farm and what Claire and Tom would like to help people do when they visit. 
+  - The tagline of "Reconnect - Realign - Rediscover" is immediately below the photograph in block capitals. This captures the essence of Red Roots Farm and what Claire and Tom would like to help people do when they visit. 
 
 ## About Us Section
 
@@ -62,49 +64,48 @@ The first iteration of Red Roots Farm site is a simple three page website with f
 
 ## Our Spaces section
 
-![Our Spaces](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Our Spaces](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498347/redrootsfarm/Our_Spaces_pzrojf.png)
 
-  - This section describes in words and pictures the 3 different spaces that are at Red Roots farm. 
-  - These spaces are listed in an ordered list 1. Polytunnel, Studio 42, Red Roots Wellness cabin. 
+  - This section describes in both words and pictures the 3 different spaces that are at Red Roots farm. 
+  - These spaces are listed in an ordered list 1. Polytunnel, 2. Red Roots Wellness cabin and 3. Studio 42 along with accompanying images. 
 
 ## Local Attractions section
 
-![Local Attractions](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Local Attractions](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498567/redrootsfarm/localattractions_ud9kqj.png)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section informs the user of some of the local attractions in the area and provides website links, all opening in new tabs for ease of viewing and navigating. 
+  - These local attractions are listed in an unordered list 
 
 ## Experiences section
 
-![Experiences](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Experiences](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498567/redrootsfarm/experiences_qdnc9q.png)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section provides more detail of the Experiences available at Red Roots farm. 
+  - It categorises the experiences into 5 different types from Mind & Body, Creative, Garden & Floristry, Spiritual and Day Retreats. 
 
 ## The Footer
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498567/redrootsfarm/footer_nt03ye.png)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the social media sites for Red Roots farm (not at the moment, social links not ready so pointing to homepages instead). 
+  - The links will open to a new tab for ease of viewing and navigating.  
+  - The footer is useful to the user as it encourages them to keep connected via social media. 
+  - The footer also includes Copyright Red Roots Farm 2022 and also the W3C CSS Validator icon that indicates no errors were found. 
 
 
 ## Gallery Page
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498906/redrootsfarm/gallery_wfywkc.png)
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The gallery presents the user with vibrant images (colourful fruit and veg, intention setting ceremony, homemade kombucha drink etc..)from Red Roots Farm. 
+  - This section is valuable to the user as they hopefully will be inspired by the colourful image and almost feel like they're transported there. Again, this is to set the scene of what Red Roots farm looks and feels like. 
 
 ## The Contact Us Form
 
-![Contact Us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact Us](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498904/redrootsfarm/contactus_qsektz.png)
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page presents the user with a contact form where they can submit any questions or comments they may have.
+  - The user will be asked to submit their full name and email address.  
 
 ### Features Left to Implement
 
@@ -124,26 +125,7 @@ It's envisaged that the site will be expanded gradually over time (in short spri
 
 ## Testing 
 
-|   |  Expected Result |  Actual Result |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-
-| Test Case                   |  Expected Result           | Actual Result  |
-| :---                        |:---                        |:---   |
-| Nav Bar                     
-| Test Home link              | right-aligned                |   $1600 |
-| Test Gallery link           | centered                     |   $12 |
-| Test Contact Us link        | are neat                     |    $1 |
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Manual Testing 
 
 Bug - Logo on the Contact Us page doesn't bring back to index.html
 Text Area on the Contact Us page wasn't resizing properly for smaller screens. Had to set max-width: 100% in media query. 
@@ -161,8 +143,6 @@ Text Area on the Contact Us page wasn't resizing properly for smaller screens. H
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
