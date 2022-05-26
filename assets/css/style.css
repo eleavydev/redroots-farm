@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans:wght@300&display=swap");
 
 /* Following convention remove default settings for padding, margin and border for all elements and instead set to zero */
 * {
@@ -101,7 +101,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653402365/redrootsfarm/landscape2_mfdvuj.jpg') no-repeat center center; 
+    background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653402365/redrootsfarm/landscape2_mfdvuj.jpg") no-repeat center center; 
     
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
@@ -121,42 +121,11 @@ h1, h2 {
     }
 }
 
-hr {
+/* hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-}
-
-
-
-body{
-  margin: 0; 
-  padding: 0;
-}
-.container img {
-  width: 100%;
-}
-
-.thin-black-border {
-  border-color: black;
-  border-width: 05px;
-  border-style: solid;
-}
-
-.header {
-  font: 200 80px'Oleo Script', Helvetica, sans-serif;
-  color: #2b2b2b;
-  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
-}
-.main-wrap{
-  display: flex;
-  flex-direction: row;
-}
-.main-wrap > div{
-  flex: 1;
-}
-
-
+} */
 
 /******************************************Styling Index.html  ********************************************************************************/
 
@@ -176,15 +145,15 @@ body{
 }
 
 #circle-tomandclaire {
-    background: url('https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653488524/redrootsfarm/ethos-image_small_tkltoc.png') no-repeat center center;
+    background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653488524/redrootsfarm/ethos-image_small_tkltoc.png") no-repeat center center;
     height: 100%;
     border-radius: 100%;
     margin-top: 10px;
 }
 
-.about-points h2 {
+/* .about-points h2 {
     text-align: center;
-}
+} */
 
 .about-points {
     /* padding: 2vh 2px; */
@@ -196,28 +165,21 @@ body{
     /* border-style: solid;   */
  }
 
- .col-right img{
+ /* .col-right img{
      height: auto;
      width: auto;
- }
+ } */
 
  .col-left {
     flex-basis: 20%;
-    border-style: double; 
+    /* border-style: double;  */
 }
 
 .col-right {
     flex-basis: 80%;
     align-items: center;
-    border-style: double; 
+    /* border-style: double;  */
     padding: 10px 
-}
-
-.col-right-align {
-    flex-basis: 80%;
-    align-items: center;
-    border-style: double; 
-    padding: 0px, 0px, 0px, 180px 
 }
 
 .about-points {
@@ -234,20 +196,20 @@ body{
     line-height: 1.4;
     display: block;
     border: #252525;
-    border-style: double;   
+    /* border-style: double;    */
 }
 
 .col-right ul,ol{
     margin: .8em;
     /* border-radius: 2px; */
     /* padding: 10px; */
-    padding-left: 2rem;
+    padding-left: .8em;
     text-align: left;
     font-size: 130%;
     line-height: 1.4;
     display: block;   
-    border: #252525;
-    border-style: double;
+    /* border: #252525;
+    border-style: double; */
     
 }
 
@@ -257,23 +219,28 @@ body{
 
 
 .col-right img{
-    border: #252525;
-    border-style: double;
-    padding: 5px;
+    padding: .2em;
+    padding-right: 7em;
     width:100%;
-    height:20em;
+    height:21em;
     max-width: 16em;
     min-width: 4em; 
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* .ourspaces{
+    display: flex;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto; 
+} */
 
 /* experiences*/
 
 #experiences {
-    background-image: url('https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816149/redrootsfarm/flowers_aj1yuy.jpg');
+    background-image: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816149/redrootsfarm/flowers_aj1yuy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -340,7 +307,7 @@ footer {
 /* Set background picture and attributes for form section */
 .form-section {
     clear: left;
-    background: url('https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816150/redrootsfarm/tom-claire_pm76ui.jpg');
+    background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816150/redrootsfarm/tom-claire_pm76ui.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -441,7 +408,7 @@ footer {
 /****************************************** For medium screens size from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-       /* Home page - Push Nav items below and left of logo */
+    /* Home page - Push Nav items below and left of logo */
         #menu {
             clear: left;
             float: left;
@@ -450,6 +417,13 @@ footer {
             line-height: 25px;
         }
 
+    /* Home page - Display Our Spaces images in block */
+
+       .col-right img{
+            display: block; 
+            padding-right: 0;
+        } 
+
     /* Gallery - Only show 3 images together in column for smaller screen size */
         #photos {
             column-count: 3;
@@ -457,12 +431,13 @@ footer {
 
     }    
 
+
     /****************************************** For small screen sizes 800px and down*/
     @media screen and (max-width: 800px) {
 
         /* Home page - Reset background to cropped version of Hero image */
         #hero-image {
-           background: url(https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653473868/redrootsfarm/cropheroimage_rkchyr.jpg) no-repeat center center; 
+           background: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653473868/redrootsfarm/cropheroimage_rkchyr.jpg") no-repeat center center; 
         }
 
         /* Home page - Change flex direction from row to column */
