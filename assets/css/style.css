@@ -338,11 +338,10 @@ footer {
 }
 
 
-/* Set up text inputs (Name, Email Address) fields */
-.text-input {    
+/* Set up text inputs (Name, Email Address) and text area(Commment Box) input field */
+/* Set general properties first for both */
+.text-input,.textarea-input{    
     color: black;
-    width: 100%;
-    height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 4px;
@@ -350,15 +349,16 @@ footer {
     font-size: inherit;
 }
 
-/* Set up text-area (Commment Box) input field */
-.textarea-input {  
-    margin: 5px 0 20px 0;
-    border: 1px solid black;
-    border-radius: 4px;
-    font-family: inherit;
-    font-size: inherit;  
-    max-width: 100%;
-} 
+/* Set specific properties next */
+.text-input{
+    width: 100%;
+    height: 25px;
+}
+
+.textarea-input{    
+    max-width: 100%; 
+}
+
 
 /* Set up hover pseduo class for text input fields to change background colour (green) on hover */
 .text-input:hover,.textarea-input:hover {
