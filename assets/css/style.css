@@ -1,3 +1,4 @@
+/* Import fonts from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans:wght@300&display=swap");
 
 /* Following convention remove default settings for padding, margin and border for all elements and instead set to zero */
@@ -7,7 +8,7 @@
     border: none;
   }
 
-/* Set defaults for body text, note background colour is Snow as opposed to stark white (design choice)  */
+/* Set defaults for body text, font family:'Merriweather Sans' note background colour is Snow as opposed to stark white (design choice)  */
 body {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 300;
@@ -16,7 +17,7 @@ body {
 }
 
 /* Style Headings */
-/* Set default font to Lato but also provide sans-serif as backup font*/
+/* Set defaults for headings, font family: 'Lato' but also provide sans-serif as backup font*/
 h1, h2 {
     font-family: 'Lato', sans-serif; 
     text-transform: uppercase;
@@ -24,18 +25,6 @@ h1, h2 {
     color: #252525;
 } 
 
-
-.sidebar {
-    flex-basis: 20%;
-    border-style: double; 
-}
-
-.main{
-    flex-basis: 80%;
-    align-items: center;
-    border-style: double; 
-    padding: 10px 
-}
 
 /************************************************************ Style Header (Logo and Navigation Menu) *************************************************************/
 /* Style Logo */
@@ -45,9 +34,10 @@ h1, h2 {
    margin-left: 30px;
 }
 
-/* p {
-    /* font-family: 'Merriweather Sans', sans-serif;  */
-/* } */ 
+/* Set defaults for paragraph text, font family:'Merriweather Sans' (same as body)*/
+p {
+    font-family: 'Merriweather Sans', sans-serif;  
+} 
 
 /* Style Navigation links  */
 #menu{
@@ -65,6 +55,7 @@ h1, h2 {
     line-height: 75px;
 }
 
+/* Set menu line items to float left and remove list style type */
 #menu li{
     float: left;
     list-style-type: none;
@@ -121,14 +112,10 @@ h1, h2 {
     }
 }
 
-/* hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-} */
 
 /******************************************Styling Index.html  ********************************************************************************/
 
+/* Set appearance of tagline - (Design choice: put solid border around it)*/
 #tagline {
     text-align: center;
     margin: 10px 0;
@@ -136,6 +123,7 @@ h1, h2 {
     border-style: solid;  
 }
 
+/* Set appearance of container div and image within of Tom and Claire (Design choice: make the image circular) */
 #circle-container {
     width: 300px;
     height: 300px;
@@ -151,73 +139,54 @@ h1, h2 {
     margin-top: 10px;
 }
 
-/* .about-points h2 {
-    text-align: center;
-} */
-
+/* Using flexbox set appearance of About Points div - flex-direction is row to start but will change to column in media queries for responsiveness*/
 .about-points {
-    /* padding: 2vh 2px; */
-    /* padding: 2vh 200px 200px 0px;  */
     text-align: left;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    /* border-style: solid;   */
  }
 
- /* .col-right img{
-     height: auto;
-     width: auto;
- } */
-
+/* Left column set to take up 20%*/
  .col-left {
     flex-basis: 20%;
-    /* border-style: double;  */
-}
+ }
 
+ /* Right column to take up 80%*/
 .col-right {
     flex-basis: 80%;
     align-items: center;
-    /* border-style: double;  */
     padding: 10px 
 }
 
-.about-points {
-    flex-basis: 30%;
-}
-
-
+ /* Set appearance of paragraph content - text-align: justify*/
 .col-right p{
     margin: .8em;
-    /* border-radius: 2px; */
-    padding: 5px;
-    text-align: left;
+    padding-right: .8em;   
+    text-align: justify;
     font-size: 130%;
     line-height: 1.4;
-    display: block;
-    border: #252525;
-    /* border-style: double;    */
+    display: block;    
 }
 
+ /* Set appearance of lists (ordered and unordered)*/
 .col-right ul,ol{
     margin: .8em;
-    /* border-radius: 2px; */
-    /* padding: 10px; */
     padding-left: .8em;
     text-align: left;
     font-size: 130%;
     line-height: 1.4;
-    display: block;   
-    /* border: #252525;
-    border-style: double; */
-    
+    display: block;       
 }
 
+/* Set appearance of list items */
 .col-right li {
   margin: .5em
   }
 
-
+/* Set appearance of images 
+Initially want images to display horizontally across the page 
+Media queries below will change display to block so that images go on to new lines (display vertically) */
 .col-right img{
     padding: .2em;
     padding-right: 7em;
@@ -230,15 +199,9 @@ h1, h2 {
     margin-right: auto;
 }
 
-/* .ourspaces{
-    display: flex;
-    justify-content:space-between;
-    margin-left: auto;
-    margin-right: auto; 
-} */
 
-/* experiences*/
-
+/* Set appearance of experiences section*/
+/* Define background image*/
 #experiences {
     background-image: url("https://res.cloudinary.com/dlsbkq7mw/image/upload/v1652816149/redrootsfarm/flowers_aj1yuy.jpg");
     background-repeat: no-repeat;
@@ -248,6 +211,7 @@ h1, h2 {
     overflow: hidden; 
 }
 
+/* Define container to display experiences */
 #experiences div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -260,17 +224,18 @@ h1, h2 {
     box-sizing: border-box;
 }
 
+/* Set h2 colour (again design choice = Snow colour)*/
 #experiences h2 {
-    color: #fafafa;
+    color: #FFFAFA;
 }
 
-/* footer */
+/* Set appearance of footer */
 footer {
     height: 150px;
-    /* border: 2px solid black; */
     text-align: center;
 }
 
+/* Set appearance of social network icons (again list items)  */
 .social-networks {
     text-align: center;
 }
@@ -290,7 +255,7 @@ footer {
 /******************************************Styling Gallery.html  ********************************************************************************/
 
 
-/* Gallery */
+/* Set appearance of photos in Gallery - initially set columnn count to 4, this will change down to 3 and then 1 (smallest screen size) with media queries for responsiveness  */
 #photos {
     clear: both;
     line-height: 0;
@@ -313,25 +278,25 @@ footer {
     height: 900px;
 }
 
-/* Set up contact-form element with curved edges, grey opague background, small bit of padding and max-width of 600px */ 
+/* Set up contact-form element with curved edges, grey opague background, small bit of padding and max-width of 500px */ 
 .contact-form {
     margin: 60px 30% 0 0; 
     color: #FFFAFA;
-    background-color: rgba(60, 60, 60, 0.6); 
+    background-color: rgba(60, 60, 60, 0.6);  
     max-width: 500px;
     position: absolute;
     left: 2%;   
     padding: 40px;
-    border-radius: 10%; 
+    border-radius: 4px;
  }
 
- /* Set up heading with colour (Snow (white)) and bottom margin  */
+ /* Set up heading again using colour (Snow) and bottom margin  */
  .contact-form > h2 {
     color: #FFFAFA;
     margin-bottom: 20px;
 }
 
- /* Set up labels with colour (Snow (white)) and letter spacing  */
+ /* Set up labels again using colour (Snow) and letter spacing  */
 .form-label {
     color: #FFFAFA;
     letter-spacing: 2px;
@@ -344,7 +309,7 @@ footer {
     color: black;
     margin: 5px 0 20px 0;
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 4px; /* Rounded borders */
     font-family: inherit;
     font-size: inherit;
 }
@@ -365,10 +330,10 @@ footer {
     border-color: rgba(152, 179, 60, 0.6);
 }
 
-/* Set up button element - centered text, curved edges, padding and same colour scheme (green background and snow (white)text)*/
+/* Set up button element - centered text, curved edges, padding and same colour scheme (green background and snow text)*/
 .submit-button {
     margin-top: 20px;
-    border-radius: 25px;
+    border-radius: 4px; /* Rounded borders */
     padding: 15px 32px; 
     text-align: center;
     font-size: 100%; 
@@ -378,7 +343,7 @@ footer {
     display: block; 
 }
 
-/* Set up hover pseduo class for button element to change colour (green to snow (white)) on hover */
+/* Set up hover pseduo class for button element to change colour (green to snow) on hover */
 .submit-button:hover {
     background-color: #FFFAFA;     
     color: rgba(152, 179, 60, 0.6);
@@ -390,11 +355,6 @@ footer {
 
 /******************************************  For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
 
     #experiences > div {
         width: 100%;
@@ -417,8 +377,7 @@ footer {
             line-height: 25px;
         }
 
-    /* Home page - Display Our Spaces images in block */
-
+    /* Home page - Display Our Spaces images in block (display in new lines)*/
        .col-right img{
             display: block; 
             padding-right: 0;
