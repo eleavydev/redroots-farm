@@ -40,7 +40,7 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
 
   - The landing page includes a photograph of Red Roots Farm with vibrant trees, flowers and green grass aiming to give the user an instant 'feel' for the Red Roots Farm space. 
   - This section aims to invite the user in to Red Roots Farm with an animation to grab their attention and almost pull them inwards to explore more. 
-  - The tagline of "Reconnect - Realign - Rediscover" is immediately below the photograph in block capitals. This captures the essence of Red Roots Farm and what Claire and Tom would like to help people do when they visit. 
+  - The tagline of "Reconnect - Realign - Rediscover" is immediately below the photograph in block capitals. This captures the essence of Red Roots Farm - Claire and Tom hope they can help people to reconnect, realign and rediscover during a visit to Red Roots Farm. 
 
 ## About Us Section
 
@@ -64,7 +64,7 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
 
 ## Our Spaces section
 
-![Our Spaces](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498347/redrootsfarm/Our_Spaces_pzrojf.png)
+![Our Spaces](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653607170/redrootsfarm/redrootsspaces_kr7kl1.png)
 
   - This section describes in both words and pictures the 3 different spaces that are at Red Roots farm. 
   - These spaces are listed in an ordered list 1. Polytunnel, 2. Red Roots Wellness cabin and 3. Studio 42 along with accompanying images. 
@@ -85,12 +85,12 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
 
 ## The Footer
 
-![Footer](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498567/redrootsfarm/footer_nt03ye.png)
+![Footer](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653603610/redrootsfarm/redrootsfooter_pm5bii.png)
 
   - The footer section includes links to the social media sites for Red Roots farm (not at the moment, social links not ready so pointing to homepages instead). 
   - The links will open to a new tab for ease of viewing and navigating.  
   - The footer is useful to the user as it encourages them to keep connected via social media. 
-  - The footer also includes Copyright Red Roots Farm 2022 and also the W3C CSS Validator icon that indicates no errors were found. 
+  - The footer also includes Copyright Red Roots Farm 2022 and also the W3C CSS Validator icon that indicates no errors were found. Note, I removed this icon as it was showing as insecure on Lighthouse report and decreasing overall scores. 
 
 
 ## Gallery Page
@@ -123,24 +123,53 @@ It's envisaged that the site will be expanded gradually over time (in short spri
 - Web shop for Red Roots merchandise. 
 
 
+## Design choices
+
+Certain design decisions were made to keep the website 'clean', simple and easy to navigate. 
+
+- In keeping with the essence of Red Roots Farm, photos on the website show flowers, greenery, colour and vibrancy of nature. 
+
+- Fonts chosen for the website were simple ones - Lato (For Headings) and Merriweather (For Body Text) as research indicated they pair well together and are "pleasant to read". 
+
+- As an alternative to using pure white as background colour, the colour Snow (#FFFAFA) was used as research suggested this as a good alternative 
+[PicMonkey](https://www.picmonkey.com/colors/white/off-white). 
+
+
 ## Testing 
 
 Manual Testing 
 
-Bug - Logo on the Contact Us page doesn't bring back to index.html
-Text Area on the Contact Us page wasn't resizing properly for smaller screens. Had to set max-width: 100% in media query. 
+- I tested that this website works in different browsers: Edge, Chrome and Safari. 
+- I tested that this website is responsive, and displays correctly on standard screen sizes using the devtools device toolbar. 
+- I confirmed that the navigation, header, about us, gallery and contact us text are legible and easy to understand. 
+- I confirmed that the links throughout the site all work and go where they're meant to (Logo, Navigation Bar, Local Attraction website links to external, Social Media links in footer). 
+- I confirmed that the form works as expected. Every field (Name, Email address, Question/Comment) has required field validator and also Email address field requires email address. Finally, the submit button works correctly. 
+
+
+Solved Bugs 
+- Logo on the Contact Us page didn't return back to index.html. Fixed as required by changing url. 
+- Some of the images weren't loading correctly as initially I was hosting within the site but then moved to Cloudinary. Fixed as required by changing url. 
+- Text Area on the Contact Us page wasn't resizing properly for smaller screens. Fixed as required by setting max-width: 100% in media query. 
+- Home link was displaying as Active on the Gallery page Navigation Bar, when Gallery should be displaying as active. Fixed as required by settingclass="active" for Gallery. 
+- Message input field on the Contact Us Page didn't have required field validator on it. Fixed as required by including 'required'. 
+- Message input field wasn't getting the exact same settings applied as the Name and Email Address, so appeared visually inconsistent. Fixed as required by correcting css selectors. 
+- Uisneach link in Local Attractions section wasn't pointing to correct website. Fixed as required by changing url. 
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Feleavydev.github.io%2Fredroots-farm%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feleavydev.github.io%2Fredroots-farm%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Accessibility 
+  - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. 
+ - ![Lighthouse Scores](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653604983/redrootsfarm/lighthousescores_ekmdyz.png)
+
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No Unfixed bugs. 
 
 ## Deployment
 
@@ -151,31 +180,21 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 The live link can be found here - https://eleavydev.github.io/redroots-farm/
 
-
 ## Credits 
 
 ### Content 
 
-- The text for the Home page was created by Red Roots farm and myself. 
+- The text for the Home page was created by Red Roots farm and myself as website creator. 
+- The fonts (Lato and Merriweather) were taken from google fonts. 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The Love Running and Coders Coffehouse projects were both used as great guides to help with this first project. 
+- Websites such as Stackoverflow, [CommunitySpiceworks](https://community.spiceworks.com/) and [W3Schools](https://www.w3schools.com/) were consulted for help with this project. 
+- My mentor Chris was very patient and helpful during this process. 
+- Also our Cohort facilitators Kenan and Kasia along with classmates on Slack and tutor support were very helpful to draw on for support. 
 
 ### Media
 
 - The photos used throughout this site have all been created by Red Roots farm. 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- Font Awesome [Font Awesome](https://fontawesome.com) was very useful to find interesting icons to use. 
+- Large photos were compressed through [Birme](https://www.birme.net/) 
+- Photos were then hosted on [Cloudinary](https://cloudinary.com/)
