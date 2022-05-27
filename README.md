@@ -108,7 +108,7 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
   - The user will be asked to submit their full name and email address.  
   - The background image shows the owners Tom and Claire smiling, waving and almost welcoming the user to Contact Us/Come join them at Red Roots Farm.
 
-### Features Left to Implement
+## Features Left to Implement
 
 As mentioned previously, the first iteration of Red Roots Farm site is a simple three page website serving as initial introduction to Red Roots Farm. 
 It's envisaged that the site will be expanded gradually over time (in short sprints) to cater for more features which are described below. 
@@ -137,22 +137,40 @@ Certain design decisions were made to keep the website 'clean', uncluttered, sim
 - As an alternative to using pure white as background colour, the colour Snow (#FFFAFA) was used as research suggested this as a good alternative 
 [PicMonkey](https://www.picmonkey.com/colors/white/off-white). 
 
+## User Stories
+
+- As a user I expect the site to be uncluttered and easy to read.
+
+- As a user I expect the site to be easy to navigate. 
+
+- As a user I want to know what page I am currently on. 
+
+- As a user I want to know I can get back to Home from any page I am on. 
+
+- As a user I want to know about Red Roots Farm without having to trawl through lots of information. 
+
+- As a user I want to know the key points at a glance (What is Red Roots farm, who are the people behind it, what can I do there and what are the spaces there). 
+
 
 ## Testing 
 
 Manual Testing 
 
 - I tested that this website works in different browsers: Edge, Chrome and Safari. 
+
 - I tested that this website is responsive, and displays correctly on standard screen sizes using the devtools device toolbar. 
+
 - I confirmed that the navigation, header, about us, gallery and contact us text is legible and easy to understand. 
+
 - I confirmed that the links throughout the site all work and go where they're meant to (Logo, Navigation Bar, Local Attraction website links to external, Social Media links in footer). 
+
 - I confirmed that the form works as expected. Every field (Name, Email address, Question/Comment) has required field validator and also Email address field requires email address. Finally, the submit button works correctly. 
 
 
 Solved Bugs 
 - Logo on the Contact Us page didn't return back to index.html. 
    - Fixed as required by changing url. 
-- Some of the images weren't loading correctly as initially I was hosting images within the site but then moved to Cloudinary
+- Some of the images weren't loading correctly as initially I was hosting images within the site but then moved to Cloudinary.
     - Fixed as required by correcting urls. 
 - Text Area on the Contact Us page wasn't resizing properly for smaller screens. 
     - Fixed as required by setting max-width: 100% in media query. 
@@ -183,29 +201,57 @@ No Unfixed bugs.
 
 ## Deployment
 
+- My Source Code on GitHub is available at: [eleavyGitHub](https://github.com/eleavydev/redroots-farm)
+
+- My live deployed project is available at [RedRootsFarm](https://eleavydev.github.io/redroots-farm/)
+
 ### Cloning and Forking  
+
+1. Cloning
+
+- Go to my GutHub repository at: [eleavyGitHub](https://github.com/eleavydev/redroots-farm). 
+- Click on the Green "Code" drop down. 
+- Choose to either Download the code as a Zip file or Clone manually using Gitlink provided. 
+
+2. Forking
+
+- Go to my GitHub repository at: [eleavyGitHub](https://github.com/eleavydev/redroots-farm). 
+- Click the Fork button at the top right of the page and wait for a few seconds. 
+- You will see that this newly forked repository gets created under your GitHub account.  
+
 
 ### Local Deployment 
 
+
+- Go to Gitpod.io and create a free account. 
+- Download and install necessary extension to Firefox/Chrome (This extension will add green Gitpod button to GitHub so you can easily open repository in Gitpod). 
+    - In Firefox, go to menu on the top right and click on Add-ons. From there then search for Gitpod.
+    - Type in Gitpod, and its the very first result is the extension that is required. 
+    - Click on it click on "Add to Firefox".
+    - Confirm permissions. 
+  - Go back to GitHub repository at: [eleavyGitHub](https://github.com/eleavydev/redroots-farm) and click on the green Gitpod button. 
+  - This will open the code in a new Gitpod workspace for you to edit. 
+  
 ### Remote Deployment  
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
+
+
+- The site has already been deployed to GitHub pages. 
+- If you wish to deploy site, the steps to deploy are as follows: 
+  - In the GitHub repository, go to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://eleavydev.github.io/redroots-farm/
 
 ## Credits 
 
 ### Content 
 
 - The text for the Home page was created by Red Roots farm and myself as website creator. 
-- The fonts (Lato and Merriweather) were taken from google fonts. 
+- The fonts (Lato and Merriweather) were taken from [Google fonts](https://fonts.google.com/). 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The Love Running and Coders Coffehouse projects were both used as great guides to help with this first project. 
-- Websites such as Stackoverflow, [CommunitySpiceworks](https://community.spiceworks.com/) and [W3Schools](https://www.w3schools.com/) were consulted for help with this project. 
+- Websites such as [Stackoverflow](https://stackoverflow.com/), [CommunitySpiceworks](https://community.spiceworks.com/) and [W3Schools](https://www.w3schools.com/) were consulted for help with this project. 
 - My mentor Chris was very patient and helpful during this process. 
-- Also our Cohort facilitators Kenan and Kasia along with classmates on Slack and tutor support were very helpful to draw on for support. 
+- Also our Cohort facilitators Kenan and Kasia along with classmates and peers on Slack and tutor support were very helpful to draw on for support. 
 
 ### Media
 
