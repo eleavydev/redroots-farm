@@ -39,7 +39,7 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
 ![Landing Page](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653388732/redrootsfarm/redroots_heroimage_withTagline_lv3ovl.png)
 
   - The landing page includes a photograph of Red Roots Farm with vibrant trees, flowers and green grass aiming to give the user an instant 'feel' for the Red Roots Farm space. 
-  - This section aims to invite the user in to Red Roots Farm with an animation to grab their attention and almost pull them inwards to explore more. 
+  - This section aims to invite the user in to Red Roots Farm with an animation to grab their attention and almost pull them gently inwards to explore more. 
   - The tagline of "Reconnect - Realign - Rediscover" is immediately below the photograph in block capitals. This captures the essence of Red Roots Farm - Claire and Tom hope they can help people to reconnect, realign and rediscover during a visit to Red Roots Farm. 
 
 ## About Us Section
@@ -98,7 +98,7 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
 ![Gallery](https://res.cloudinary.com/dlsbkq7mw/image/upload/v1653498906/redrootsfarm/gallery_wfywkc.png)
 
   - The gallery presents the user with vibrant images (colourful fruit and veg, intention setting ceremony, homemade kombucha drink etc..)from Red Roots Farm. 
-  - This section is valuable to the user as they hopefully will be inspired by the colourful image and almost feel like they're transported there. Again, this is to set the scene of what Red Roots farm looks and feels like. 
+  - This section is valuable to the user as they hopefully will be inspired by the colourful images and almost feel like they're transported there. Again, this is to set the scene of what Red Roots farm looks and feels like. 
 
 ## The Contact Us Form
 
@@ -106,6 +106,7 @@ The first iteration of Red Roots Farm site is a simple three page website (1. Ho
 
   - This page presents the user with a contact form where they can submit any questions or comments they may have.
   - The user will be asked to submit their full name and email address.  
+  - The background image shows the owners Tom and Claire smiling, waving and almost welcoming the user to Contact Us/Come join them at Red Roots Farm.
 
 ### Features Left to Implement
 
@@ -125,9 +126,11 @@ It's envisaged that the site will be expanded gradually over time (in short spri
 
 ## Design choices
 
-Certain design decisions were made to keep the website 'clean', simple and easy to navigate. 
+Certain design decisions were made to keep the website 'clean', uncluttered, simple and easy to navigate. 
 
 - In keeping with the essence of Red Roots Farm, photos on the website show flowers, greenery, colour and vibrancy of nature. 
+
+- There are lots of images displayed on the website as the saying says... "A picture paints a thousand words". 
 
 - Fonts chosen for the website were simple ones - Lato (For Headings) and Merriweather (For Body Text) as research indicated they pair well together and are "pleasant to read". 
 
@@ -141,19 +144,26 @@ Manual Testing
 
 - I tested that this website works in different browsers: Edge, Chrome and Safari. 
 - I tested that this website is responsive, and displays correctly on standard screen sizes using the devtools device toolbar. 
-- I confirmed that the navigation, header, about us, gallery and contact us text are legible and easy to understand. 
+- I confirmed that the navigation, header, about us, gallery and contact us text is legible and easy to understand. 
 - I confirmed that the links throughout the site all work and go where they're meant to (Logo, Navigation Bar, Local Attraction website links to external, Social Media links in footer). 
 - I confirmed that the form works as expected. Every field (Name, Email address, Question/Comment) has required field validator and also Email address field requires email address. Finally, the submit button works correctly. 
 
 
 Solved Bugs 
-- Logo on the Contact Us page didn't return back to index.html. Fixed as required by changing url. 
-- Some of the images weren't loading correctly as initially I was hosting within the site but then moved to Cloudinary. Fixed as required by changing url. 
-- Text Area on the Contact Us page wasn't resizing properly for smaller screens. Fixed as required by setting max-width: 100% in media query. 
-- Home link was displaying as Active on the Gallery page Navigation Bar, when Gallery should be displaying as active. Fixed as required by settingclass="active" for Gallery. 
-- Message input field on the Contact Us Page didn't have required field validator on it. Fixed as required by including 'required'. 
-- Message input field wasn't getting the exact same settings applied as the Name and Email Address, so appeared visually inconsistent. Fixed as required by correcting css selectors. 
-- Uisneach link in Local Attractions section wasn't pointing to correct website. Fixed as required by changing url. 
+- Logo on the Contact Us page didn't return back to index.html. 
+   - Fixed as required by changing url. 
+- Some of the images weren't loading correctly as initially I was hosting images within the site but then moved to Cloudinary
+    - Fixed as required by correcting urls. 
+- Text Area on the Contact Us page wasn't resizing properly for smaller screens. 
+    - Fixed as required by setting max-width: 100% in media query. 
+-   Home link was displaying as Active on the Gallery page Navigation Bar, when Gallery should be displaying as active. 
+    - Fixed as required by setting class="active" for Gallery. 
+- Message input field on the Contact Us Page didn't have required field validator on it. 
+    - Fixed as required by including 'required'. 
+- Message input field wasn't getting the exact same settings applied as the Name and Email Address, so appeared visually inconsistent. 
+    - Fixed as required by correcting css selectors. 
+- Uisneach link in Local Attractions section wasn't pointing to correct website. 
+    - Fixed as required by changing url. 
 
 
 ### Validator Testing 
@@ -173,6 +183,11 @@ No Unfixed bugs.
 
 ## Deployment
 
+### Cloning and Forking  
+
+### Local Deployment 
+
+### Remote Deployment  
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
